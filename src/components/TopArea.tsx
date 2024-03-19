@@ -104,6 +104,8 @@ export const TopArea = ({ setUser }: TopAreaProps) => {
           <img src="/assets/icon-search.svg"  alt="search .."/>
         </InputLabel>
 
+
+        
         <Input
           ref={usernameRef}
           name="username"
