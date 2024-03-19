@@ -11,6 +11,8 @@ export const TopArea = ({ setUser }: TopAreaProps) => {
   const usernameRef = useRef<HTMLInputElement>(null);
   const [inputUser] = useState("octocat");
 
+
+  
   function hadleSubmit() {
     if (
       usernameRef.current?.value.trim() === "" ||
