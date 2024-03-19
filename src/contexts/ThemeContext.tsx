@@ -6,6 +6,8 @@ interface ThemeContextProps {
   lightMode: boolean;
 }
 
+
+
 export const ThemeContext = createContext({} as ThemeContextProps);
 
 export const ThemeContextProvider = (props: any) => {
